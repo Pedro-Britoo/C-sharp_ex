@@ -1,11 +1,11 @@
 using System.Threading;
 using UnityEngine;
 //(Contador de horas e dias) Crie um script que em que uma
-//vari·vel inteira hora seja incrementada de uma unidade a cada 10
-//segundos e volte a ser 0 quando alcanÁar o valor 24. Quando
-//completar um ciclo, incremente uma vari·vel dias e escreva o
-//n˙mero de dias que se passaram no console. (Coloque o cÛdigo
-//dentro da funÁ„o-evento Update).
+//vari√°vel inteira hora seja incrementada de uma unidade a cada 10
+//segundos e volte a ser 0 quando alcan√ßar o valor 24. Quando
+//completar um ciclo, incremente uma vari√°vel dias e escreva o
+//n√∫mero de dias que se passaram no console. (Coloque o c√≥digo
+//dentro da fun√ß√£o-evento Update).
 public class exercicio08 : MonoBehaviour
 {
    [SerializeField]   float segundos;
@@ -37,6 +37,7 @@ public class exercicio08 : MonoBehaviour
             horas = 0;
             print(dias);
             print(horas);
+            //opa
                 
 
             }
